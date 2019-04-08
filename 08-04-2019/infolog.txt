@@ -1,0 +1,672 @@
+Using writeable configuration source: "C:\Program Files (x86)\Steam\steamapps\common\Zero-K\springsettings.cfg"
+Using additional read-only configuration source: "C:\Program Files (x86)\Steam\steamapps\common\Zero-K\engine\win32\104.0.1-1156-gb72a9cc\springsettings.cfg"
+LogOutput initialized. Logging to C:\Program Files (x86)\Steam\steamapps\common\Zero-K\infolog.txt
+============== <Log Sections> ==============
+  Available:
+    ArchiveScanner
+    AutohostInterface
+    BumpWater
+    CSMFGroundTextures
+    CregSerializer
+    DecalsDrawerGL4
+    DynWater
+    FarTextureHandler
+    Font
+    GameServer
+    GroundMoveType
+    KeyBindings
+    LuaSocket
+    Model
+    Net
+    Path
+    Piece
+    RoamMeshDrawer
+    Shader
+    SkyBox
+    Sound
+    Texture
+    VFS
+  Enabled:
+    Sound (Notice)
+  
+  Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+============== </Log Sections> ==============
+
+============== <User Config> ==============
+  AllowDeferredMapRendering = 1
+  AllowDeferredModelRendering = 1
+  BumpWaterDepthBits = 16
+  BumpWaterReflection = 0
+  BumpWaterRefraction = 0
+  BumpWaterShoreWaves = 0
+  BumpWaterTexSizeReflection = 64
+  CamFreeScrollSpeed = 50
+  CamMode = 1
+  CamTimeExponent = 4.0
+  CamTimeFactor = 1.0
+  CubeTexSizeReflection = 64
+  CubeTexSizeSpecular = 64
+  DualScreenMiniMapOnLeft = 1
+  EdgeMoveDynamic = 0
+  EdgeMoveWidth = 0.003
+  FPSFOV = 90
+  FPSScrollSpeed = 50
+  FSAALevel = 4
+  FeatureDrawDistance = 600000
+  FeatureFadeDistance = 600000
+  FontSize = 18
+  Fullscreen = 0
+  GrassDetail = 1
+  GroundDecals = 1
+  GroundDetail = 70
+  HangTimeout = 30
+  HardwareCursor = 1
+  InitialNetworkTimeout = 0
+  InputTextGeo = 0.26 0.73 0.02 0.028
+  LODScale = 1.000
+  LODScaleReflection = 1.000
+  LODScaleRefraction = 1.000
+  LODScaleShadow = 1.000
+  LuaGarbageCollectionMemLoadMult = 100
+  MaxParticles = 12000
+  MaxSounds = 32
+  MaximumTransmissionUnit = 0
+  MiddleClickScrollSpeed = -0.0015
+  MiniMapMarker = 0
+  MouseDragCircleCommandThreshold = 25
+  MouseDragScrollThreshold = 0
+  OverheadMaxHeightFactor = 1.39999998
+  OverheadScrollSpeed = 50
+  ReconnectTimeout = 0
+  RotOverheadScrollSpeed = 50
+  RotateLogFiles = 1
+  ScreenshotCounter = 4
+  ScrollWheelSpeed = -25
+  ShadowMapSize = 8192
+  ShowClock = 0
+  ShowPlayerInfo = 0
+  SplashScreenDir = ./MenuLoadscreens
+  TeamHighlight = 0
+  TreeRadius = 1000
+  UnitIconDist = 151
+  UnitLodDist = 9999
+  UseDistToGroundForIcons = 1.10000002
+  UsePBO = 0
+  VFSCacheArchiveFiles = 0
+  WindowPosX = 0
+  WindowPosY = 80
+  XResolution = 1920
+  XResolutionWindowed = 1920
+  YResolution = 1080
+  YResolutionWindowed = 1000
+  snd_volmaster = 0
+============== </User Config> ==============
+
+============== <User System> ==============
+  Spring Engine Version: 104.0.1-1156-gb72a9cc maintenance
+      Build Environment: gcc libstdc++ version 20171010
+       Compiler Version: gcc-5.5.0
+       Operating System: Windows 10 April 2018 Update (build 17134)
+        Hardware Config: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz; 8147MB RAM, 13011MB pagefile
+       Binary Word Size: 32-bit (emulated)
+          Process Clock: std::chrono::high_resolution_clock
+     Physical CPU Cores: 4
+      Logical CPU Cores: 4
+============== </User System> ==============
+
+[good_fpu_init][STREFLOP_SSE]
+	SSE 1.0 : 1,  SSE 2.0 : 1
+	SSE 3.0 : 1, SSSE 3.0 : 1
+	SSE 4.1 : 1,  SSE 4.2 : 1
+	SSE 4.0A: 0,  SSE 5.0A: 0
+[WatchDog::Install] installed (hang-timeout: 30s)
+[WatchDog::RegisterThread] registering controls for thread [main]
+[GL::CheckAvailableVideoModes] desktop={2560x1080x24bpp@60Hz} current={2560x1080x24bpp@60Hz}
+	display=1 modes=41 bounds={x=0, y=0, w=2560, h=1080}
+		[ 2] 1920x1080x24bpp@60Hz
+		[ 8] 1680x1050x24bpp@60Hz
+		[ 9] 1600x900x24bpp@60Hz
+		[10] 1440x900x24bpp@60Hz
+		[18] 1280x800x24bpp@75Hz
+		[22] 1280x720x24bpp@60Hz
+	display=2 modes=31 bounds={x=2560, y=0, w=1920, h=1080}
+		[ 1] 1920x1080x24bpp@60Hz
+		[ 2] 1680x1050x24bpp@60Hz
+		[ 4] 1600x900x24bpp@60Hz
+		[ 5] 1440x900x24bpp@60Hz
+		[12] 1280x800x24bpp@60Hz
+		[14] 1280x720x24bpp@60Hz
+[GR::CreateSDLWindow] using 4x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for main window
+[GR::CreateSDLWindow] using 4x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888") for hidden window
+[GR::LogVersionInfo]
+	SDL version : 2.0.8 (linked) / 2.0.8 (compiled)
+	GL version  : 3.0.13544 Compatibility Profile Context 25.20.15011.1004
+	GL vendor   : ATI Technologies Inc.
+	GL renderer : AMD Radeon HD 7800 Series
+	GLSL version: 4.60
+	GLEW version: 2.1.0
+	GPU memory  : unknown
+	SDL swap-int: 0
+	
+	ARB shader support        : 1
+	GLSL shader support       : 1
+	FBO extension support     : 1
+	NVX GPU mem-info support  : 0
+	ATI GPU mem-info support  : 0
+	NPOT-texture support      : 1 (1)
+	S3TC/DXT1 texture support : 1/0
+	texture query-LOD support : 1 (1)
+	24-bit Z-buffer support   : 0 (-)
+	primitive-restart support : 1 (1)
+	clip-space control support: 0 (1)
+	seamless cube-map support : 1 (1)
+	frag-depth layout support : 0 (-)
+	
+	max. FBO samples             : -1
+	max. texture size            : 16384
+	max. texture anisotropy level: 16.000000
+	max. vec4 varyings/attributes: 32/29
+	max. draw-buffers            : 8
+	max. rec. indices/vertices   : 536870911/536870911
+	max. uniform buffer-bindings : 90
+	max. uniform block-size      : 559236KB
+	
+	enable ATI-hacks : 1
+	compress MIP-maps: 0
+[GR::ToggleGLDebugOutput] OpenGL debug-context not installed (dbgErrors=0 dbgTraces=0)
+[GR::UpdateGLConfigs]
+[VSync::SetInterval] interval=0 (disabled)
+[GR::UpdateGLGeometry][1] winSize=<1,1>
+[GR::UpdateGLGeometry][2] winSize=<1920,1000>
+[GR::InitGLState]
+[GR::LogDisplayMode] display-mode set to 1920x1000x24bpp@60Hz (windowed::decorated)
+[TexMemPool::Resize] poolSize=134217728u allocSize=0u texCount=0u
+[~ScopedOnceTimer][FtLibraryHandler::FontConfigInit (version 2.10.2)] 1ms
+[WatchDog::RegisterThread] registering controls for thread [vfsi]
+[DataDirLocater::Check] Isolation Mode!
+Using read-write data directory: C:\Program Files (x86)\Steam\steamapps\common\Zero-K\
+Using read-only data directory: C:\Program Files (x86)\Steam\steamapps\common\Zero-K\engine\win32\104.0.1-1156-gb72a9cc\
+Scanning: C:\Program Files (x86)\Steam\steamapps\common\Zero-K\engine\win32\104.0.1-1156-gb72a9cc\base
+Scanning: C:\Program Files (x86)\Steam\steamapps\common\Zero-K\maps
+Scanning: C:\Program Files (x86)\Steam\steamapps\common\Zero-K\games
+Scanning: C:\Program Files (x86)\Steam\steamapps\common\Zero-K\packages
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 32ms
+[WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
+[ThreadPool::SetThreadCount][1] wanted=3 current=1 maximum=4 (init=1)
+[ThreadPool::SetThreadCount][2] workers=2
+[Threading] Main thread CPU affinity mask set: 12
+[f=-000001] [~ScopedOnceTimer][ISound::Init::New] 0ms
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.0ms)
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=32
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::OpenLoopbackDevice] opening default device
+[f=-000001] [Sound] [Sound::OpenLoopbackDevice] unhandled SDL format: 0x8120
+[f=-000001] [Sound] [Sound::Cleanup][SDL_CloseAudioDevice(2)]
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (100.9ms)
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=076b0b90 context=074e04c0
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.16.0
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFTX_HRTF ALC_SOFT_loopback ALC_SOFTX_midi_interface ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (201.8ms)
+[f=-000001] [Sound]     [Speakers (High Definition Audio Device)]
+[f=-000001] [Sound]     [Speakers (3- Samson GoMic)]
+[f=-000001] [Sound]     [Speakers (High Definition Audio Device)]
+[f=-000001] [Sound]     [Digital Audio (S/PDIF) (High Definition Audio Device)]
+[f=-000001] [Sound]     [Digital Audio (S/PDIF) (High Definition Audio Device)]
+[f=-000001] [Sound]     [3 - LG ULTRAWIDE (AMD High Definition Audio Device)]
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] #attribs=15
+[f=-000001] [Sound] [Sound::GetMaxMonoSources] {cfg,alc}MaxSounds={32,255}
+[f=-000001] [Sound] Error:   EFX: AL_INVALID_VALUE (40963)
+[f=-000001] [Sound] Error:   Initializing EFX failed!
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 302ms
+[f=-000001] [LuaMenuController::Reset] using menu archive "Chobby v1.7.3.4"
+[f=-000001] LuaMenu Entry Point: "LuaMenu/main.lua"
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] [LuaMenu] Searching for new Widgets
+[f=-000001] [LuaMenu] Scanning: LuaMenu/Addons/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/Widgets/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/SystemAddons/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/SystemWidgets/
+[f=-000001] [LuaMenu] Scanning: LuaMenu/chili/
+[f=-000001] [LuaMenu] Scanning: libs/chilifx/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/chilivn/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/chotify/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/i18n/LuaMenu/widgets
+[f=-000001] [LuaMenu] Scanning: libs/liblobby/LuaMenu/widgets
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: base64.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: engineversion.lua
+[f=-000001] Spring.GetWindowGeometry, 1920, 1000, 0, 0
+[f=-000001] Spring.GetViewGeometry, 1920, 1000, 0, 0
+[f=-000001] gl.GetViewSizes, 1920, 1000
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: function_override.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: json.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: tablefunctions.lua
+[f=-000001] [LuaMenu] Warning: Missing GetInfo() in: timefunctions.lua
+[f=-000001] [LuaMenu] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaMenu] Loading API widget:  Delay API              <api_delay.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Limit FPS              <api_limit_fps.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Away Tracker           <gui_away_tracker.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Chili Framework        <api_chili.lua>
+[f=-000001] [LuaMenu] Loading API widget:  LibLobby API           <api_lobby.lua>
+[f=-000001] [liblobby] liblobby configuration: 
+[f=-000001] [liblobby] serverName, Zero-K
+[f=-000001] [liblobby] port, 8200
+[f=-000001] [liblobby] protocol, zks
+[f=-000001] [liblobby] address, zero-k.info
+[f=-000001] [LuaMenu] Loading API widget:  i18n                   <api_i18n.lua>
+[f=-000001] [LuaMenu] Loading API widget:  ChiliFX                <api_chilifx.lua>
+[f=-000001] [ChiliFX] Enabled: true
+[f=-000001] [LuaMenu] Loading API widget:  Chotify                <api_chotify.lua>
+[f=-000001] [Chotify] Enabled: true
+[f=-000001] [LuaMenu] Loading API widget:  Download Handler       <api_download_handler.lua>
+[f=-000001] [LuaMenu] Loading API widget:  Ingame Interface       <api_ingame_interface.lua>
+[f=-000001] [LuaMenu] Loading widget:      Test                   <dbg_test.lua>
+[f=-000001] [LuaMenu] Loading widget:      Command Buffering      <api_command_buffering.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle List Window     <gui_battle_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Options Window  <gui_campaign_options.lua>
+[f=-000001] [LuaMenu] Loading widget:      Community Window       <gui_community_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Download Window        <gui_download_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Friend Window          <gui_friend_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Missions Handles       <gui_mission_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Notification Handler   <api_notification_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Planetwars List Window  <gui_planetwars_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Queue List Window      <gui_queue_list_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Replays window         <gui_replay_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Settings Window        <gui_settings_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      SpringBoard Window     <gui_springboard_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Users Handler          <api_user_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK wrapper loopback interface  <zk_loopback.lua>
+[f=-000001] [Chobby] Using wrapper port: , 50511
+[f=-000001] [LuaMenu] Loading widget:      Cache Handler API      <api_cache_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Internet Browser API   <api_internet_browser.lua>
+[f=-000001] [LuaMenu] Loading widget:      Map Handler API        <api_map_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Data Handler  <api_campaign_data.lua>
+[f=-000001] [LuaMenu] Loading widget:      API Script Handler     <api_script_generator.lua>
+[f=-000001] [LuaMenu] Loading widget:      Analytics Handler      <api_analytics.lua>
+[f=-000001] [LuaMenu] Loading widget:      Animation control      <api_animation_control.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle Login Rejoin    <gui_battle_login_rejoin.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle Room Window     <gui_battle_room_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Battle status panel    <gui_battle_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Benchmark Handler      <gui_benchmark_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Commander Loadout  <gui_campaign_commander_loadout.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Handler       <gui_campaign_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Handler ZK    <zk_campaign_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Save/Load     <gui_campaign_saveload.lua>
+[f=-000001] [LuaMenu] Loading widget:      Campaign Technology Panel  <gui_campaign_technology_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Chili Visual Novel     <campaign_chili_vn.lua>
+[f=-000001] [LuaMenu] Loading widget:      Codex Handler          <gui_campaign_codex_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Cursor tooltip         <gui_tooltip.lua>
+[f=-000001] [LuaMenu] Loading widget:      Discord Handler        <api_discord_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Load Game Menu         <gui_loadgame.lua>
+[f=-000001] [LuaMenu] Loading widget:      Login Window           <gui_login_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Maplist Panel          <gui_maplist_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Mission Progress Handler  <api_mission_progress_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Modoptions Panel       <gui_modoptions_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Party status panel     <gui_party_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Planet Battle Handler  <api_planet_battle_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Popup Preloader        <gui_popup_preloader.lua>
+[f=-000001] [LuaMenu] Loading widget:      Queue status panel     <gui_queue_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      Rank update window     <gui_rank_update_window.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Coop Handler     <gui_steam_coop_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Handler          <api_steam_handler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Steam Release Notifier  <gui_steam_release_notifier.lua>
+[f=-000001] [LuaMenu] Loading widget:      User status panel      <gui_user_status_panel.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK Comm Config         <gui_zk_comm_config.lua>
+[f=-000001] [LuaMenu] Loading widget:      ZK replay downloader   <zk_replay_launcher.lua>
+[f=-000001] [LuaMenu] Loading widget:      ChiliProfiler          <dbg_chili_profiler.lua>
+[f=-000001] [LuaMenu] Loading widget:      Image Preloader        <dbg_img_preload.lua>
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Warning: Headers files aren't supported anymore use "require" instead!
+[f=-000001] [LuaMenu] Loading widget:      Chili lobby            <gui_chili_lobby.lua>
+[f=-000001] [Chobby] Detected game config, evorts
+[f=-000001] [Chobby] Detected game config, evortsdev
+[f=-000001] [Chobby] Detected game config, generic
+[f=-000001] [Chobby] Detected game config, tc
+[f=-000001] [Chobby] Detected game config, zk
+[f=-000001] [Chobby] Detected game config, zkdev
+[f=-000001] [Chobby] Detected game config, LuaMenu\configs\gameConfig\zk
+[f=-000001] [Chobby] Warning: Game config not found: LuaMenu/configs/gameConfig/LuaMenu\configs\gameConfig\zk/mainConfig.lua
+[f=-000001] Vendor and GL, ATI, 3
+[f=-000001] Low settings preset, 3.0.13544
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 0
+[f=-000001] SetSettings Int, GroundDetail, 70
+[f=-000001] SetSettings Int, GroundDecals, 1
+[f=-000001] SetSettings Int, Water, 1
+[f=-000001] SetSettings Value, UsePBO, 0
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] Set ATI/intel/other non-nvidia compatibility state: Enabled (Automatic)
+[f=-000001] SetSettings Value, FeatureDrawDistance, 600000
+[f=-000001] SetSettings Value, FeatureFadeDistance, 600000
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 64
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 64
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 0
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 0
+[f=-000001] SetSettings Int, MaxParticles, 12000
+[f=-000001] SetSettings Int, Shadows, 2
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, UsePBO, 0
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 0
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 0
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 0
+[f=-000001] SetSettings Int, BumpWaterRefraction, 0
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 64
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 16
+[f=-000001] SetSettings Int, BumpWaterReflection, 0
+[f=-000001] SetSettings Int, Water, 1
+[f=-000001] SetSettings Int, GrassDetail, 1
+[f=-000001] SetSettings Int, TreeRadius, 1000
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] SetSettings Int, FSAALevel, 4
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 0
+[f=-000001] SetSettings Int, GroundDetail, 70
+[f=-000001] SetSettings Int, GroundDecals, 1
+[f=-000001] SetSettings Int, Water, 4
+[f=-000001] SetSettings Value, UsePBO, 1
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, Water, 1
+[f=-000001] SetSettings Value, UsePBO, 0
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] Set ATI/intel/other non-nvidia compatibility state: Enabled (Automatic)
+[f=-000001] SetSettings Value, FeatureDrawDistance, 600000
+[f=-000001] SetSettings Value, FeatureFadeDistance, 600000
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 0
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 0
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 0
+[f=-000001] SetSettings Int, BumpWaterRefraction, 0
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 64
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 16
+[f=-000001] SetSettings Int, BumpWaterReflection, 0
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 0
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 0
+[f=-000001] SetSettings Int, GrassDetail, 1
+[f=-000001] SetSettings Int, TreeRadius, 1000
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 64
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 64
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, UsePBO, 0
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] SetSettings Int, Shadows, 2
+[f=-000001] SetSettings Int, Water, 1
+[f=-000001] SetSettings Int, MaxParticles, 12000
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] SetSettings Int, FSAALevel, 4
+[f=-000001] [LuaMenu] Loading widget:      Standalone lobby tools  <gui_standalone_lobby.lua>
+[f=-000001] [LuaMenu] Loading widget:      Block Input            <gui_block_input.lua>
+[f=-000001] [LuaMenu] Loading widget:      Music Player Lite      <snd_music_lite.lua>
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] [LuaMenu] LuaMenu v1.0 (Lua 5.1)
+[f=-000001] [LuaMenuController::Activate(msg="")] luaMenu=075ba308
+[f=-000001] SetLobbyButtonEnabled, true
+[f=-000001] SetSettings Int, MaxDynamicMapLights, 1
+[f=-000001] SetSettings Value, DynamicSky, 0
+[f=-000001] SetSettings Value, CamTimeFactor, 1
+[f=-000001] SetSettings Value, LODScale, 1
+[f=-000001] SetSettings Int, BumpWaterDepthBits, 16
+[f=-000001] SetSettings Value, FullscreenEdgeMove, 1
+[f=-000001] SetSettings Int, FSAALevel, 4
+[f=-000001] [Settings] Warning: No such key: BuildWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDetail, 70
+[f=-000001] SetSettings Value, CamTimeExponent, 4
+[f=-000001] SetSettings Int, ShadowMapSize, 8192
+[f=-000001] SetSettings Int, InitialNetworkTimeout, 0
+[f=-000001] SetSettings Int, RotOverheadScrollSpeed, 50
+[f=-000001] [Settings] Warning: No such key: SmoothPoints, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: LuaAutoModWidgets, but setting it as string anyway.
+[f=-000001] SetSettings Int, GrassDetail, 1
+[f=-000001] SetSettings Int, BumpWaterReflection, 0
+[f=-000001] SetSettings Value, LODScaleRefraction, 1
+[f=-000001] SetSettings Int, MaximumTransmissionUnit, 0
+[f=-000001] SetSettings Int, FPSScrollSpeed, 50
+[f=-000001] SetSettings Value, AdvSky, 0
+[f=-000001] SetSettings Int, CamMode, 1
+[f=-000001] SetSettings Int, MaxDynamicModelLights, 1
+[f=-000001] SetSettings Value, MiddleClickScrollSpeed, -0.0015
+[f=-000001] SetSettings Int, HangTimeout, 30
+[f=-000001] SetSettings Int, Water, 1
+[f=-000001] SetSettings Value, MouseDragScrollThreshold, 0
+[f=-000001] [Settings] Warning: No such key: LogFlush, but setting it as string anyway.
+[f=-000001] SetSettings Value, LuaGarbageCollectionMemLoadMult, 100
+[f=-000001] SetSettings Value, FeatureDrawDistance, 600000
+[f=-000001] SetSettings Value, UsePBO, 0
+[f=-000001] SetSettings Value, LuaShaders, 1
+[f=-000001] SetSettings Int, BumpWaterTexSizeReflection, 64
+[f=-000001] SetSettings Int, ForceDisableShaders, 0
+[f=-000001] SetSettings Int, GroundScarAlphaFade, 0
+[f=-000001] [Settings] Warning: No such key: Version, but setting it as string anyway.
+[f=-000001] SetSettings Int, OverheadScrollSpeed, 50
+[f=-000001] SetSettings Value, EdgeMoveWidth, 0.003
+[f=-000001] SetSettings Int, FontSize, 18
+[f=-000001] [Settings] Warning: No such key: snd_general, but setting it as string anyway.
+[f=-000001] SetSettings Value, BumpWaterBlurReflection, 0
+[f=-000001] SetSettings Value, LODScaleShadow, 1
+[f=-000001] SetSettings Int, UnitLodDist, 9999
+[f=-000001] SetSettings Value, AdvMapShading, 1
+[f=-000001] [Settings] Warning: No such key: interfaceScale, but setting it as string anyway.
+[f=-000001] [Settings] Warning: No such key: MoveWarnings, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeReflection, 64
+[f=-000001] SetSettings Int, TreeRadius, 1000
+[f=-000001] [Settings] Warning: No such key: LinkBandwidth, but setting it as string anyway.
+[f=-000001] SetSettings Value, AllowDeferredMapRendering, 0
+[f=-000001] [Settings] Warning: No such key: WorkerThreadSpinTime, but setting it as string anyway.
+[f=-000001] SetSettings Value, WindowedEdgeMove, 1
+[f=-000001] [Settings] Warning: No such key: VerboseLevel, but setting it as string anyway.
+[f=-000001] SetSettings Value, AdvUnitShading, 1
+[f=-000001] SetSettings Int, VSync, 0
+[f=-000001] SetSettings Value, 3DTrees, 1
+[f=-000001] SetSettings Value, EdgeMoveDynamic, 0
+[f=-000001] SetSettings Value, UseLuaMemPools, 0
+[f=-000001] SetSettings Int, LoadingMT, 0
+[f=-000001] SetSettings Value, UseDistToGroundForIcons, 1.10000002
+[f=-000001] SetSettings Value, CamFreeScrollSpeed, 50
+[f=-000001] SetSettings Int, ReconnectTimeout, 0
+[f=-000001] SetSettings Value, ScrollWheelSpeed, -25
+[f=-000001] [Settings] Warning: No such key: SmoothLines, but setting it as string anyway.
+[f=-000001] SetSettings Value, ShowClock, 0
+[f=-000001] SetSettings Value, DualScreenMiniMapOnLeft, 1
+[f=-000001] SetSettings Int, ROAM, 1
+[f=-000001] [Settings] Warning: No such key: DisplayDebugPrefixConsole, but setting it as string anyway.
+[f=-000001] SetSettings Int, GroundDecals, 1
+[f=-000001] [Settings] Warning: No such key: ReflectiveWater, but setting it as string anyway.
+[f=-000001] SetSettings Int, BumpWaterRefraction, 0
+[f=-000001] SetSettings Int, MaxParticles, 12000
+[f=-000001] [Settings] Warning: Unexpected key type: std::string, but setting it as string anyway.
+[f=-000001] SetSettings Value, RotateLogFiles, 1
+[f=-000001] SetSettings Value, FeatureFadeDistance, 600000
+[f=-000001] SetSettings Int, Shadows, 2
+[f=-000001] SetSettings Value, BumpWaterShoreWaves, 0
+[f=-000001] [Settings] Warning: No such key: MinimapOnLeft, but setting it as string anyway.
+[f=-000001] SetSettings Int, MaxSounds, 32
+[f=-000001] SetSettings Value, MiniMapMarker, 0
+[f=-000001] [Settings] Warning: No such key: NormalMapping, but setting it as string anyway.
+[f=-000001] SetSettings Value, LODScaleReflection, 1
+[f=-000001] SetSettings Value, FPSFOV, 90
+[f=-000001] SetSettings Value, BumpWaterAnisotropy, 0
+[f=-000001] SetSettings Value, HardwareCursor, 1
+[f=-000001] SetSettings Value, OverheadMaxHeightFactor, 1.39999998
+[f=-000001] [Settings] Warning: No such key: FSAA, but setting it as string anyway.
+[f=-000001] SetSettings Int, CubeTexSizeSpecular, 64
+[f=-000001] SetSettings Value, VFSCacheArchiveFiles, 0
+[f=-000001] SetSettings Value, AllowDeferredModelRendering, 0
+[f=-000001] Starting Track, sounds/lobbyMusic/The Secret of Ayers Rock.ogg, 0
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1920,1000>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1920,1000>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1000x24bpp@60Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<1920,1000>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<1920,1000>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1000x24bpp@60Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] SteamOnline, Received
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][1] fullScreen=0
+[f=-000001] [GR::UpdateGLConfigs]
+[f=-000001] [GR::UpdateGLGeometry][1] winSize=<2560,1001>
+[f=-000001] [GR::UpdateGLGeometry][2] winSize=<2560,1001>
+[f=-000001] [GR::InitGLState]
+[f=-000001] [GR::LogDisplayMode] display-mode set to 2560x1001x24bpp@60Hz (windowed::decorated)
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 6ms
+[f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] [liblobby] Warning: Duplicate user(bturt6) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(RedComet) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Keo) added to channel (zk)
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_HIDDEN][2]
+
+[f=-000001] [liblobby] Warning: Duplicate user(Zieg) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Aquanim) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Aquanim) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Sirkrunk) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Bojack) added to channel (zk)
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] 
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=0
+[f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
+[f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
+
+[f=-000001] [liblobby] Warning: Duplicate user(Fisticuffs) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Zolokhan) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(7HzHetrodyne) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(JigglyPanda) added to channel (zk)
+[f=-000001] [chobby] Showing battle with ID, 3141
+[f=-000001] [i18n] Warning: "spectator" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "spectator"
+[f=-000001] [i18n] Warning: "player" is not translated in en
+[f=-000001] [i18n] Error: No translation found for "player"
+[f=-000001] [liblobby] Warning: Duplicate user(XxPhoenixxX) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(WiessRitter) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(brianfreeman) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Dunskied) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Oflameo) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(GabeDaBaller) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(TheBigOIPanda) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Brandoncoin) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Zieg) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Craeful) added to channel (zk)
+[f=-000001] [liblobby] Warning: Duplicate user(Craeful) added to channel (zk)
+[f=-000001] [SpringApp::Kill][1] fromRun=1
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=3 maximum=4 (init=0)
+[f=-000001] 	[async=0] threads=3 tasks=72 {sum,avg}{exec,wait}time={{2.000, -0.000}, {-2.000, 2.000}}ms
+[f=-000001] 		thread=1 tasks=36 {sum,min,max,avg}{exec,wait}time={{-0.000, 0.000, 26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 26815622253219979224592068203304717187758030573044232076809978562479213932778854557380150624099211252626888590164128657208999994877763871361363455080660992.000}, {0.000, 0.000, 0.000, 0.000}}ms
+[f=-000001] 		thread=2 tasks=36 {sum,min,max,avg}{exec,wait}time={{-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 0.000, 26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 26815622253219979224592068203304717187758030573044232076809978562479213932778854557380150624099211252626888590164128657208999994877763871361363455080660992.000}, {-2.000, 0.000, -26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 2.000}}ms
+[f=-000001] 	[async=1] threads=3 tasks=2 {sum,avg}{exec,wait}time={{0.000, 0.000}, {-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -26815622253213733202883996540686615504152735331774681220311917277961446492649294058276562645477716575842156528629730276069728534254180411647451304866873344.000}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -26815622253213733202883996540686615504152735331774681220311917277961446492649294058276562645477716575842156528629730276069728534254180411647451304866873344.000, -26815622253213733202883996540686615504152735331774681220311917277961446492649294058276562645477716575842156528629730276069728534254180411647451304866873344.000, -26815622253213733202883996540686615504152735331774681220311917277961446492649294058276562645477716575842156528629730276069728534254180411647451304866873344.000}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {0.000, 0.000, 0.000, 0.000}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [SpringApp::Kill][2]
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=32 #items=1
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=074e04c0 dev=076b0b90
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=074e04c0 dev=076b0b90
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(074e04c0)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(076b0b90)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] Remember to update handler.lua once the following is in basecontent: https://github.com/spring/spring/commit/ef6df34ae5dd4eba9b192f695f9b2724da0f83c2
+[f=-000001] SetLobbyFullscreenMode, 2
+[f=-000001] [Chobby] Chobby Shutdown
+[f=-000001] [LuaMemPool::LogStats][handle=LuaMenu (unsynced)] index=0 {numAllocs[*],allocSums[*]}={0,0} {int,ext,rec}Allocs={0,123282412,0} {chunk,block}Bytes={0,0}
+[f=-000001] [SpringApp::Kill][3]
+[f=-000001] [SpringApp::Kill][4] font=06f88528
+[f=-000001] [SpringApp::Kill][5]
+[f=-000001] [SpringApp::Kill][6]
+[SpringApp::Kill][7]
+[LuaSocket] [~CLuaSocketRestrictions] dumping luasocket rules:
+[LuaSocket] TCP_CONNECT ALLOW * -1
+[LuaSocket] TCP_LISTEN  ALLOW * -1
+[LuaSocket] UDP_LISTEN  ALLOW * -1
+[SpringApp::Kill][8]
+[WatchDog::DeregisterThread] deregistering controls for thread [main]
+[WatchDog::Uninstall][1] hangDetectorThread=014ec78c (joinable=1)
+[WatchDog::Uninstall][2]
+[WatchDog::Uninstall][3]
+[SpringApp::Kill][9]
